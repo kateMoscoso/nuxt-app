@@ -1,10 +1,11 @@
 <template>
 <div>
-<input type="text" v-model="userId">
-<button @click="onLoadUser"> Load User</button>
+<Header />
+<p> Please enter and id</p>
 </div>
 </template>
 <script>
+
 export default {
     data(){
        return {
